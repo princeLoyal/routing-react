@@ -17,13 +17,13 @@ import ProductDetails from "./components/ProductDetails";
 // );
 const router = createBrowserRouter([
   {
-    path: '/', 
+    path: '/root', 
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [
-      {path: '/', element: <Home />},
-      {path: '/products', element: <Products />},
-      {path: '/products/:productId', element: <ProductDetails/>} 
+      {path: '', element: <Home />},
+      {path: 'products', element: <Products />},
+      {path: 'products/:productId', element: <ProductDetails/>} 
     ]
   },
 ]);
