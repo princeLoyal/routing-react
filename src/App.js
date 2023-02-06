@@ -17,7 +17,7 @@ import ProductDetails from "./components/ProductDetails";
 // );
 const router = createBrowserRouter([
   {
-    path: '/', 
+    path: '/root', 
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [
