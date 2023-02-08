@@ -3,7 +3,7 @@ import {
   RouterProvider, 
   createRoutesFromElements,
   Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/Home";
 
 
 
