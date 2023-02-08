@@ -3,7 +3,7 @@ import {
   RouterProvider, 
   createRoutesFromElements,
   Route } from "react-router-dom";
-import Home from "./pages/Home";
+import HomePage from "./pages/HomePage";
 import Products from "./pages/Products";
 import RootLayout from "./components/Root";
 import ErrorPage from './components/Error';
